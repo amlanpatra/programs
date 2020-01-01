@@ -1,29 +1,6 @@
-import timeit
-testing_code = """
-count = 0
-ang_num = [0,0,0,0,0,0,0]
-for i in range(0,10):
- for j in range(0,10):
-  for k in range(0,10):
-   if(i**3+j**3+k**3==i*100+j*10+k*1):
-    count += 1
-    ang_num[count-1]= i*100+j*10+k*1
-    continue
-   else:
-       continue
-#print (ang_num)"""
-time_to_perform = timeit.timeit(testing_code,number = 1)
-print (time_to_perform)
-xyz = 0.001168767000000015
-
-
-
-
-
-
-
-
-
+#Angstrom number : 153=1^3+5^3+3^3
+#Other numbers : 153,370,371,407
+#import math
 import timeit
 testing_code = """
 ang_list = []
@@ -54,6 +31,4 @@ for the_range in range(0,1000):
 #print(ang_list))"""
 time_to_perform = timeit.timeit(testing_code,number = 1)
 print (time_to_perform)
-apz = 0.0033153479999999957
-print(apz-xyz)
 
