@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
-x = [1,2]
-y = [6,3]
+x = [1,2,3,6,7,10]
+y = [-2,2,3,10,12,15]
 #z = [3,7,6]
 plt.plot(x,y)
 plt.xlabel("X - Axis")
