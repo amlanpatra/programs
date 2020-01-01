@@ -3,7 +3,7 @@ x1 = int((input("Enter the range : ")))
 x = 1
 x3 = float(x)
 a = 0
-ang_list = []
+ang_list = [0]
 
 for i in range(0,x1):
  y = len(str(float(x)))
@@ -11,7 +11,7 @@ for i in range(0,x1):
   b = int(x% 10)
   c = b**3
   d = int((x-b)/10)
-  a += int(c)
+  a += c
   #print(x,b)
   # a = int(a)
   if a==x :

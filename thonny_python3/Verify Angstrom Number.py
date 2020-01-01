@@ -1,7 +1,9 @@
 #Angstrom number : 153=1^3+5^3+3^3
 #Other numbers : 153,370,371,407
 import math
-x = input("Enter the number : ")
+
+number = input("Enter the number : ")
+x = number
 y = len(x)
 z  = float(x)
 d = z

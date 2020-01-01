@@ -16,5 +16,5 @@ for i in range(0,y):
 if a==z :
  print(x,"is a Peterson number")
 else :
- #print("The sum of the factorial of the digits is",a,"instead of",x," so",x,"is not a Peterson number")
- print(x,"is not a Peterson number")
+ print("The sum of the factorial of the digits is",a,"instead of",x," so",x,"is not a Peterson number")
+#  print(x,"is not a Peterson number")
