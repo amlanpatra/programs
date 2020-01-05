@@ -1,14 +1,10 @@
 import random
-
-a = range(1, random.randint(1,30))
+a = range(1,random.randint(1,40))
+b = range(1,random.randint(1,100))
+c = []
 print(a)
-
-b = range(1, random.randint(10,40))
 print(b)
-new_list = []
-
-for num in a:
- if num in b:
-  new_list.append(num)
-
-print(new_list)
+for i in a:
+    if i in b:
+        c.append(i)
+print(c)
