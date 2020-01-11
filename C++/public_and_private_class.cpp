@@ -1,5 +1,7 @@
-#include<iostream.h>
-#include<conio.h>
+#include <iostream>
+#include<stdio.h>
+#include <curses.h>
+using namespace std;
 class A
 {
 private:
@@ -13,7 +15,7 @@ void show()
 {
 a=10 ;
 b=20;
-clrscr();
+//clrscr();
 //Every members can be access here, same class
 cout<<"\nAccessing variable within the class"<<endl;
 
@@ -22,7 +24,7 @@ cout<<"Value of b: "<<b<<endl;
 }
 };
 
-void main()
+int main(void)
 {
 A obj; // create object
 obj.show();
@@ -33,6 +35,6 @@ cout<<"\nAccessing variable outside the class"<<endl;
 
 //'b' is public as can be accessed from any where
 cout<<"value of b: "<<obj.b<<endl;
-
-getch();
+//return 0;
+//getch();
 }
