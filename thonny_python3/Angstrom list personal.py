@@ -1,8 +1,8 @@
 #Angstrom number : 153=1^3+5^3+3^3
 #Other numbers : 153,370,371,407
 #import math
-import timeit
-testing_code = """
+#import timeit
+#testing_code = """
 ang_list = []
 #number = input("Enter the range : ")
 p = 1
@@ -28,7 +28,8 @@ for the_range in range(0,1000):
  else :
   p+=1    
  continue
-#print(ang_list))"""
-time_to_perform = timeit.timeit(testing_code,number = 1)
-print (time_to_perform)
+print(ang_list)
+#"""
+#time_to_perform = timeit.timeit(testing_code,number = 1)
+#print (time_to_perform)
 
