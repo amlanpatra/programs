@@ -1,4 +1,4 @@
 # Check functions/constituents of module
 
-import sys as x
+import numpy as x
 print(dir(x))
