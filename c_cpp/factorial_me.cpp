@@ -5,7 +5,7 @@ using namespace std;
 int main(void)
 {
 	//freopen("input.txt", "r", stdin);
-	int num = 150; // = 15000; //factorial to be calculated
+	int num = 15000; // = 15000; //factorial to be calculated
 	//printf("Enter the number : ");
 	//scanf("%d", &num);
 
